@@ -28,12 +28,11 @@ ai-book-cover-generator/
 ├── training/                     # Complete training pipeline
 │   ├── dataset_scraping.ipynb   # OpenLibrary data collection
 │   ├── bookCoverGen_Model.ipynb # DreamBooth fine-tuning
-│   └── README.md                # Training documentation
+│   └── lora_dataset              
 ├── gradio_app/                   # Production-ready application
 │   ├── app.py                   # Main Gradio interface
 │   ├── requirements.txt         # Application dependencies
 │   ├── model/                   # Trained model storage
-│   └── README.md                # App deployment guide
 └── examples/                     # Generated cover samples
     ├── fantasy/
     ├── sci-fi/
